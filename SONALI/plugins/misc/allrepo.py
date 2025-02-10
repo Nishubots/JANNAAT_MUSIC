@@ -51,7 +51,7 @@ def get_all_repository_info(github_username):
 
 [
                                 InlineKeyboardButton(
-                                    "𝖩ᴏɪɴ 𝖳ᴇᴀᴍ Bᴏᴛᴄʜᴀᴍʙᴇʀ",
-                                    url="https://t.me/ll_BOTCHAMBER_ll"
+                                    "˹𝚵𝗔𝗚𝗟𝗘˼ ˹𝗨𝗣𝗗𝗔𝗧𝚵𝗦˼",
+                                    url="https://t.me/EAGLE_UPDTAES"
                                 )
 ]
