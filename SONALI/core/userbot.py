@@ -11,21 +11,21 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="RAUSHANAss1",
+            name="Devass1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="RAUSHANAss2",
+            name="Devass2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="RAUSHANAss3",
+            name="Devass3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ll_BOTCHAMBER_ll")
-                await self.one.join_chat("FRIENDSHUBCHATZONE")
+                await self.one.join_chat("UNDERGROUND_MAFIA_CLUB")
+                await self.one.join_chat("VERON_CHATTING_CLUB")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("ll_BOTCHAMBER_ll")
-                await self.one.join_chat("DP_WORLD7")
+                await self.two.join_chat("UNDERGROUND_MAFIA_CLUB")
+                await self.one.join_chat("EAGLE_UPDTAES")
             except:
                 pass
             assistants.append(2)
@@ -93,8 +93,8 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("ll_BOTCHAMBER_ll")
-                await self.one.join_chat("DP_WORLD7")
+                await self.three.join_chat("UNDERGROUND_MAFIA_CLUB")
+                await self.one.join_chat("EAGLE_UPDTAES")
             except:
                 pass
             assistants.append(3)
@@ -114,8 +114,8 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("ll_BOTCHAMBER_ll")
-                await self.one.join_chat("DP_WORLD7")
+                await self.four.join_chat("UNDERGROUND_MAFIA_CLUB")
+                await self.one.join_chat("EAGLE_UPDTAES")
             except:
                 pass
             assistants.append(4)
@@ -135,8 +135,8 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("ll_BOTCHAMBER_ll")
-                await self.one.join_chat("DP_WORLD7")
+                await self.five.join_chat("UNDERGROUND_MAFIA_CLUB")
+                await self.one.join_chat("EAGLE_UPDTAES")
             except:
                 pass
             assistants.append(5)
