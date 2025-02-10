@@ -7,6 +7,7 @@ import config
 from ..logging import LOGGER
 
 TEMP_MONGODB = "mongodb+srv://eagleupdate019:1TNeLNefuf2Fn5Du@cluster0.3zhea.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+-
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
